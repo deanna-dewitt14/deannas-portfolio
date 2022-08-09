@@ -1,0 +1,31 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+}
+header {
+	padding:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: darkgrey;
+}
+
+header h1 {
+	font-weight: bold;
+	font-size: 36px;
+	background-color: aqua;
+	margin: 0;
+	display: inline;
+}
+
+header nav {
+	list-style-type: none;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 25px
+}
