@@ -27,5 +27,44 @@ header nav {
 
 header nav ul li {
 	display: inline-block;
-	margin-left: 25px
+	margin-left: 25px;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+p {
+	font-size: 16px;
+}
+
+main {
+	width: 75%;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#about-me {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: gray;
+}
+
+#work {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: gray;	
+}
+
+#contact-me {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: gray;	
 }
