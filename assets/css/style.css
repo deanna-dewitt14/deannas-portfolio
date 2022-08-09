@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -8,32 +10,38 @@ body {
 	background-color: white;
 }
 header {
-	height: 5rem;
-	font-family: Arial, Helvetica, sans-serif;
 	background-color: darkgrey;
+	height: 6rem;
 }
 
 header h1 {
 	position: relative;
-	top: 1rem;
+	background-color: #1f2a52;
 	padding-left: 5rem;
-	background-color: aqua;
-	display: inline;
+	top: 0.8rem;
+	width: 26rem;
 }
 
-header span {
-	background-color: aqua;
-	font-weight: bold;
-	font-size: 36px;
+header span{
+	color: darkgrey;
+	font-size: 3rem;
+	font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 header nav {
+	color: #1f2a52;
+	font-size: large;
+    font-weight: bold;
 	list-style-type: none;
 	text-align: end;
 	margin-right: 5rem;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav ul li {
+	text-decoration: underline;
+    text-decoration-color: #1f2a52;
+    text-decoration-thickness: 0.2rem;
 	display: inline-block;
 	margin-left: 25px;
 }
