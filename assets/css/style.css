@@ -8,10 +8,9 @@
 }
 
 body {
-	background-color: white;
+
 }
 header {
-	background-color: darkgrey;
 	height: 6rem;
 }
 
@@ -24,7 +23,7 @@ header h1 {
 }
 
 header span{
-	color: darkgrey;
+	color: white;
 	font-size: 3rem;
 	font-family: 'Oleo Script Swash Caps', cursive;
 }
