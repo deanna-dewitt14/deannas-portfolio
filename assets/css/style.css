@@ -7,6 +7,10 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+a:-webkit-any-link {
+	color: #1f2a52;
+}
+
 body {
 
 }
@@ -59,17 +63,30 @@ figure img {
 main {
 	color: #1f2a52;
 	padding-left: 5rem;
+	position: relative;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+main section {
+	margin-bottom: 5rem;
+	position: relative;
 }
 
 main h2 {
-	position: relative;
     display: table-caption;
-    margin: 5rem 0 5rem 0;
     border-right: 4px solid #1f2a52;
     height: 12rem;
     padding-right: 1rem;
     text-align: right;
     font-size: 3rem;
+	width: 10rem;
+}
+
+main p {
+	position: absolute;
+	top: 0px;
+	left: 11rem;
 }
 
 #about-me {
