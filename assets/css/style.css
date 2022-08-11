@@ -63,6 +63,7 @@ figure img {
 main {
 	color: #1f2a52;
 	padding-left: 5rem;
+	padding-right: 5rem;
 	position: relative;
 	margin-top: 5rem;
 	margin-bottom: 5rem;
@@ -90,19 +91,54 @@ main h2 {
     height: 12rem;
 }
 
-main p {
+#about-me p {
+	position: absolute;
+	top: 0px;
+	left: 24rem;
+}
+
+#work section {
+	display: flex;
+    flex-wrap: wrap;
 	position: absolute;
 	top: 0px;
 	left: 11rem;
+	width: 40rem;
+	justify-content: space-around;
 }
 
-#about-me {
-
+#runBuddy {
+    width: 40rem;
+	height: auto;
+    border: 5px solid #1f2a52;
 }
 
-#work {
-
+#ledWall {
+    width: 19.8rem;
+    height: 15rem;
+    border: 5px solid #1f2a52;
 }
 
-#contact-me {
+#calculator {
+    width: 19.8rem;
+    height: 15rem;
+    border: 5px solid #1f2a52;
+}
+
+figure {
+	position: relative;
+}
+
+figure figcaption {
+	position: absolute;
+    bottom: 1rem;
+    background-color: white;
+    color: #1f2a52;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+footer {
+	position: relative;
+	bottom: 5px;
 }
