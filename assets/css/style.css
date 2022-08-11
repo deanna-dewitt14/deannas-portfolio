@@ -83,6 +83,13 @@ main h2 {
 	width: 10rem;
 }
 
+#about-me img {
+	position: absolute;
+    top: 0rem;
+    left: 11rem;
+    height: 12rem;
+}
+
 main p {
 	position: absolute;
 	top: 0px;
