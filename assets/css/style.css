@@ -11,9 +11,6 @@ a:-webkit-any-link {
 	color: #1f2a52;
 }
 
-body {
-
-}
 header {
 	height: 6rem;
 }
@@ -140,5 +137,19 @@ figure figcaption {
 
 footer {
 	position: relative;
-	bottom: 5px;
+	top: 27rem;
+}
+
+footer h3 {
+	font-size: 3rem;
+	text-decoration: underline;
+	text-align: center;
+}
+
+footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
 }
